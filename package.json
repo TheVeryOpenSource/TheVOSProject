@@ -2,11 +2,30 @@
   "name": "thevosproject",
   "version": "0.0.1",
   "description": "Accepting all PR's. This experimental repo will accept all pull requests without conflicts or malicious code.",
-  "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["OPEN SOURCE", "CODING", "DEVELOPING", "PROGRAMMING", "LEARNING TO CODE", "FIRST CONTRIBUTION", "PULL REQUEST"],
+  "keywords": [
+    "OPEN SOURCE",
+    "CODING",
+    "DEVELOPING",
+    "PROGRAMMING",
+    "LEARNING TO CODE",
+    "FIRST CONTRIBUTION",
+    "PULL REQUEST"
+  ],
   "author": "The World",
-  "license": "MIT"
+  "license": "MIT",
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "vite": "^5.0.12"
+  }
 }
