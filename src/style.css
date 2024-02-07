@@ -1,0 +1,27 @@
+body, html {
+    height: 100%; /* Make sure the body takes up full viewport height */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Enables flexbox for the body */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Optional: adds a background color */
+}
+
+.card {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: 1px solid black; /* Thin black outline */
+}
+
+#home-card {
+    width: 20rem;
+}
+
+#weather {
+    margin-top: 20px;
+}
